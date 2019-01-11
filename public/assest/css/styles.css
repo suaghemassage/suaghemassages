@@ -584,6 +584,7 @@ a.liveeventmb {
     width: 18px;
     height: 18px;
     font-size: 18px;
+    vertical-align: middle;
     -webkit-animation-duration: 1.25s;
     animation-duration: 1.25s;
     -webkit-animation-timing-function: ease-in-out;
@@ -1872,42 +1873,28 @@ h1.title-service.mb {
   font-size: 14px; }
 
 .header-top-mb {
+  padding: 10px 0 0 10px;
   float: left;
   width: 100%; }
-  .header-top-mb div.search {
-    width: 70%;
+  .header-top-mb span.title {
+    font-family: robotob;
+    font-size: 14px;
+    color: #ff9000;
     float: left; }
-  .header-top-mb div.wrap-cart-mb {
-    float: left;
-    width: 15%;
-    padding: 5px 0 0 0; }
-    .header-top-mb div.wrap-cart-mb a.cart {
-      height: 38px;
-      position: relative; }
-      .header-top-mb div.wrap-cart-mb a.cart img {
-        max-height: 32px;
-        padding: 4px;
-        margin-left: 5px; }
-      .header-top-mb div.wrap-cart-mb a.cart span.so {
-        position: absolute;
-        right: -7px;
-        top: -10px;
-        color: #19c8a9;
-        font-size: 13px; }
+
+.menu-mb {
+  float: right;
+  width: 15%;
+  padding: 0px 10px 0 0; }
+  .menu-mb div.icon-menu {
+    background: url(/menu.jpg) no-repeat 0 0;
+    height: 25px; }
+
+.menu-mb.act-menu div.icon-menu {
+  background: url(/menu.jpg) no-repeat 0 -29px; }
 
 .navbar-icon-cart {
   position: relative; }
-
-.menu-mb {
-  float: left;
-  width: 15%;
-  padding: 0px 5px; }
-  .menu-mb div.icon-menu {
-    background: url("/menu.jpg") no-repeat 0 0;
-    height: 38px; }
-
-.menu-mb.act-menu div.icon-menu {
-  background: url("/menu.jpg") no-repeat 0 -40px; }
 
 .subnav {
   position: absolute;
@@ -2353,47 +2340,30 @@ section.mb div.header-main > h1 {
   font-size: 14px; }
 
 .box-cho-thue {
-  border: 1px solid #db4028;
+  border: 1px solid #333;
   border-radius: 4px;
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
-  margin-bottom: 20px; }
-  .box-cho-thue div.title-cho-thue {
-    padding: 5px;
-    text-align: center;
-    font-family: robotob;
-    text-transform: uppercase;
-    height: 50px; }
-  .box-cho-thue div.title-cho-thue.orange {
-    background-color: rgba(255, 0, 156, 0.5);
-    color: #fff; }
-  .box-cho-thue div.title-cho-thue.blue {
-    background-color: rgba(0, 0, 238, 0.5);
-    color: #fff; }
-  .box-cho-thue div.title-cho-thue.green {
-    background-color: rgba(0, 205, 102, 0.5);
-    color: #fff; }
-  .box-cho-thue div.image-cho-thue {
-    width: 100%; }
-    .box-cho-thue div.image-cho-thue img {
-      max-width: 100%; }
-  .box-cho-thue div.des-cho-thue {
-    background-color: #363636;
-    color: #fff;
-    padding: 5px;
-    line-height: 1.4em; }
-  .box-cho-thue div.btn-view-chothue {
-    text-align: center;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+  margin-bottom: 5px;
+  padding: 10px; }
+  .box-cho-thue li a {
+    font-size: 13px;
+    text-decoration: none; }
+
+.box-content {
+  padding: 0 10px; }
+  .box-content h2 {
+    font-size: 15px;
+    font-family: robotob; }
+  .box-content p {
     font-size: 14px;
-    padding: 10px 0;
-    width: 100%;
-    background: #151515; }
-    .box-cho-thue div.btn-view-chothue i {
-      font-size: 16px;
-      margin-right: 5px; }
-    .box-cho-thue div.btn-view-chothue a {
-      color: #a9a2a1; }
-      .box-cho-thue div.btn-view-chothue a:hover, .box-cho-thue div.btn-view-chothue a:active {
-        color: #cac1bf; }
+    color: #111; }
+  .box-content ul {
+    margin-left: 15px; }
+    .box-content ul li {
+      font-size: 14px;
+      font-family: robotor;
+      color: #111;
+      list-style: disc !important; }
 
 .ghemassageservice {
   float: left;
@@ -2403,7 +2373,7 @@ section.mb div.header-main > h1 {
   font-family: robotob; }
 
 .services-mb {
-  font-size: 16px;
+  font-size: 15px;
   text-transform: uppercase;
   font-family: robotob;
   margin-top: 40px !important; }

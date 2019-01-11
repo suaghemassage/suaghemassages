@@ -711,6 +711,7 @@ a.liveeventmb{
     width:18px;
     height: 18px;
     font-size: 18px;
+    vertical-align: middle;
     -webkit-animation-duration: 1.25s;
     animation-duration: 1.25s;
     -webkit-animation-timing-function:ease-in-out;
@@ -2155,51 +2156,33 @@ font-family: robotob;
   font-size: 14px;
 }
 .header-top-mb{
+  padding:10px 0 0 10px;
   float:left;
   width:100%;
-  div.search{
-    width:70%;
-    float:left;
-  }
-  div.wrap-cart-mb{
-    float:left;
-    width:15%;
-    padding: 5px 0 0 0;
-    a.cart{
-      height: 38px;
-      position:relative;
-      img{
-        max-height: 32px;
-        padding:4px;
-        margin-left:5px;
-      }
-      span.so{
-        position:absolute;
-        right:-7px;
-        top:-10px;
-        color:$color-main;
-        font-size: 13px;
-      }
-    }
-  }
+   span.title{
+     font-family: robotob;
+     font-size: 14px;
+     color:$text-orange;
+     float:left;
+   }
+ }
+ .menu-mb {
+    float: right;
+    width: 15%;
+    padding: 0px 10px 0 0;
+    div.icon-menu {
+    background: url(/menu.jpg) no-repeat 0 0;
+    height: 25px;
+}
+}
+.menu-mb.act-menu div.icon-menu {
+    background: url(/menu.jpg) no-repeat 0 -29px;
 }
 .navbar-icon-cart {
     position: relative;
 }
-.menu-mb{
-  float:left;
-  width:15%;
-  padding:0px 5px;
-  div.icon-menu{
-    background:url('/menu.jpg') no-repeat 0 0;
-    height: 38px;
-  }
-}
-.menu-mb.act-menu{
-  div.icon-menu{
-    background:url('/menu.jpg') no-repeat 0 -40px;
-  }
-}
+
+
 .subnav{
   position:absolute;
   top:37px;
@@ -2722,57 +2705,35 @@ section.mb{
     font-size: 14px;
 }
 .box-cho-thue{
-  border:1px solid $text-dark-orange;
+  border:1px solid #333;
   border-radius: 4px;
-  box-shadow: 0 6px 12px rgba(0,0,0,.175);
-  margin-bottom: 20px;
-  div.title-cho-thue{
-    padding:5px;
-    text-align: center;
-    font-family: robotob;
-    text-transform: uppercase;
-    height: 50px;
-  }
-  div.title-cho-thue.orange{
-    background-color: rgba(255,0,156,0.5);
-    color:#fff;
-  }
-  div.title-cho-thue.blue{
-    background-color: rgba(0,0,238,0.5);
-    color:#fff;
-  }
-  div.title-cho-thue.green{
-    background-color: rgba(0,205,102,0.5);
-    color:#fff;
-  }
-  div.image-cho-thue{
-    width: 100%;
-    img{
-      max-width: 100%;
-    }
-  }
-  div.des-cho-thue{
-    background-color:#363636;
-    color:#fff;
-    padding:5px;
-    line-height: 1.4em;
-  }
-  div.btn-view-chothue{
-    text-align: center;
-    font-size: 14px;
-    padding:10px 0;
-    width:100%;
-    background: #151515;
-
-    i{
-      font-size: 16px;
-      margin-right:5px;
-    }
+  box-shadow: 0 6px 12px rgba(0,0,0,.3);
+  margin-bottom: 5px;
+  padding:10px;
+  li{
     a{
-      color:#a9a2a1;
-      &:hover,&:active{
-        color:#cac1bf;
-      }
+      font-size: 13px;
+      text-decoration: none;
+    }
+  }
+}
+.box-content{
+  padding:0 10px;
+  h2{
+    font-size: 15px;
+    font-family: robotob;
+  }
+  p{
+    font-size: 14px;
+    color:#111;
+  }
+  ul{
+    margin-left:15px;
+    li{
+      font-size: 14px;
+      font-family: robotor;
+      color:#111;
+      list-style: disc!important;
     }
   }
 }
@@ -2784,7 +2745,7 @@ section.mb{
     font-family: robotob;
 }
 .services-mb{
-  font-size: 16px;
+  font-size: 15px;
   text-transform: uppercase;
   font-family: robotob;
   margin-top:40px!important;

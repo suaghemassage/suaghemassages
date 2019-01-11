@@ -574,7 +574,7 @@ a.liveeventmb {
   position: relative;
   color: #f33;
   font-size: 12px;
-  padding-left: 20px;
+  padding-left: 10px;
   display: inline-block;
   vertical-align: middle;
   line-height: 1.4em;
@@ -2377,3 +2377,6 @@ section.mb div.header-main > h1 {
   text-transform: uppercase;
   font-family: robotob;
   margin-top: 40px !important; }
+
+.section-mb {
+  padding: 0 0 40px 0; }

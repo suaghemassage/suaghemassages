@@ -10,6 +10,39 @@ $bg-orange:#b02914;
 $border-bottom:#e3dada99;
 $border-bottom-mb: #ddcdcd99;
 $border-sub-list:#cbf2ec;
+@font-face {
+font-family:robotor;
+src:url('../../font/Roboto-Regular.ttf') format('truetype')
+}
+@font-face {
+font-family:robotob;
+src:url('../../font/Roboto-Bold.ttf') format('truetype')
+}
+@font-face {
+font-family:robotoi;
+src:url('../../font/Roboto-Italic.ttf') format('truetype')
+}
+@font-face {
+font-family:robotol;
+src:url('../../font/Roboto-Light.ttf') format('truetype')
+}
+@font-face {
+font-family:robotom;
+src:url('../../font/Roboto-Medium.ttf') format('truetype')
+}
+@font-face {
+font-family:robotocr;
+src:url('../../font/RobotoCondensed-Regular.ttf') format('truetype')
+}
+@font-face {
+font-family:robotocb;
+src:url('../../font/RobotoCondensed-Bold.ttf') format('truetype')
+}
+@font-face {
+font-family:utm-impact;
+src:url('../../font/utm-impact.ttf') format('truetype')
+}
+
 a{
   text-decoration: none;
 }
@@ -2218,7 +2251,7 @@ font-family: robotob;
         li{
           border-bottom:0.5px dashed $border-sub-list;
           a{
-            color:$color-main;
+            color:#06352d;
             &:hover{
               color:$text-dark-orange;
             }
@@ -2735,6 +2768,9 @@ section.mb{
       color:#111;
       list-style: disc!important;
     }
+  }
+  img{
+    max-width: 100%;
   }
 }
 .ghemassageservice{

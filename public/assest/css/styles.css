@@ -1,3 +1,35 @@
+@font-face {
+  font-family: robotor;
+  src: url("../../font/Roboto-Regular.ttf") format("truetype"); }
+
+@font-face {
+  font-family: robotob;
+  src: url("../../font/Roboto-Bold.ttf") format("truetype"); }
+
+@font-face {
+  font-family: robotoi;
+  src: url("../../font/Roboto-Italic.ttf") format("truetype"); }
+
+@font-face {
+  font-family: robotol;
+  src: url("../../font/Roboto-Light.ttf") format("truetype"); }
+
+@font-face {
+  font-family: robotom;
+  src: url("../../font/Roboto-Medium.ttf") format("truetype"); }
+
+@font-face {
+  font-family: robotocr;
+  src: url("../../font/RobotoCondensed-Regular.ttf") format("truetype"); }
+
+@font-face {
+  font-family: robotocb;
+  src: url("../../font/RobotoCondensed-Bold.ttf") format("truetype"); }
+
+@font-face {
+  font-family: utm-impact;
+  src: url("../../font/utm-impact.ttf") format("truetype"); }
+
 a {
   text-decoration: none; }
 
@@ -1924,7 +1956,7 @@ h1.title-service.mb {
     .subnav div.navigation ul.list-danh-muc li > ul.sub-list li {
       border-bottom: 0.5px dashed #cbf2ec; }
       .subnav div.navigation ul.list-danh-muc li > ul.sub-list li a {
-        color: #19c8a9; }
+        color: #06352d; }
         .subnav div.navigation ul.list-danh-muc li > ul.sub-list li a:hover {
           color: #db4028; }
         .subnav div.navigation ul.list-danh-muc li > ul.sub-list li a i {
@@ -2364,6 +2396,8 @@ section.mb div.header-main > h1 {
       font-family: robotor;
       color: #111;
       list-style: disc !important; }
+  .box-content img {
+    max-width: 100%; }
 
 .ghemassageservice {
   float: left;

@@ -204,8 +204,7 @@ img {
   padding: 9px 15px; }
 
 .slideshow {
-  margin: 5px 0;
-  height: 410px; }
+  margin: 5px 0; }
 
 .footer {
   border-top: 2px solid #19c8a9;
@@ -523,8 +522,7 @@ ul.list-product {
     width: calc(40% - 10px); }
 
 .homenews {
-  margin: 7px 0;
-  height: 410px;
+  margin: 7px 0 0 0;
   overflow: hidden; }
   .homenews figure {
     display: block;
@@ -1432,7 +1430,7 @@ figure.template.news.letter b {
   height: 300px;
   max-height: 300px;
   border-radius: 0 0 40px 0;
-  overflow: hidden;
+  overflow-y: scroll;
   text-align: left; }
   .view-content.post ul.list-padding {
     padding-left: 10px;

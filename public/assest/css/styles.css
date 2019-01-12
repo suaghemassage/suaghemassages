@@ -2381,6 +2381,49 @@ section.mb div.header-main > h1 {
     font-size: 13px;
     text-decoration: none; }
 
+.box-cho-thue.desktop {
+  border: 1px solid #db4028;
+  border-radius: 4px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+  margin-bottom: 20px;
+  padding: 0; }
+  .box-cho-thue.desktop div.title-cho-thue {
+    padding: 5px;
+    text-align: center;
+    font-family: robotob;
+    text-transform: uppercase;
+    height: 50px; }
+  .box-cho-thue.desktop div.image-cho-thue {
+    width: 100%; }
+  .box-cho-thue.desktop div.des-cho-thue {
+    background-color: #363636;
+    color: #fff;
+    padding: 5px;
+    line-height: 1.4em; }
+  .box-cho-thue.desktop div.btn-view-chothue {
+    text-align: center;
+    font-size: 14px;
+    padding: 10px 0;
+    width: 100%;
+    background: #151515; }
+    .box-cho-thue.desktop div.btn-view-chothue a {
+      color: #a9a2a1; }
+      .box-cho-thue.desktop div.btn-view-chothue a i {
+        font-size: 16px;
+        margin-right: 5px; }
+
+.title-cho-thue.orange {
+  background-color: rgba(255, 0, 156, 0.5);
+  color: #fff; }
+
+.title-cho-thue.blue {
+  background-color: rgba(0, 0, 238, 0.5);
+  color: #fff; }
+
+.title-cho-thue.green {
+  background-color: rgba(0, 205, 102, 0.5);
+  color: #fff; }
+
 .box-content {
   padding: 0 10px; }
   .box-content h2 {
@@ -2413,4 +2456,4 @@ section.mb div.header-main > h1 {
   margin-top: 40px !important; }
 
 .section-mb {
-  padding: 0 0 10px 0; }
+  padding: 0 0 30px 0; }
